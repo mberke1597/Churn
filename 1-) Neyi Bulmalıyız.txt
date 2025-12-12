@@ -1,0 +1,20 @@
+1-) Neyi Bulmalıyız?
+	Neyi Amaçlıyoruz? Target Şöyle Dağılıyor?
+	Data Features
+	Modelleme Sonuçları 
+	
+2-)Anonimleştirme?
+	Soyadı dropladık etik sebepler.Yeni veriseti yaptık.
+3-)Preprocessing	
+	RowNumber—corresponds to the record (row) number and has no effect on the output.
+	Gender Dummyleştirdik True - False  corr object olmamalı
+	Card Type ı incelerken ordinal categorik sütun .Bunu  df_train["Card Type"] = df_train["Card Type"].replace({"SILVER ":0, "GOLD":1, "PLATINUM ":2,"DIAMOND":3})
+	Geo -> 3 ülke var France diğer 2 sini iki katında 
+	
+
+
+	amacı işlevi , satır sayısı ,sütun sayısı , Target sütun, veri dağılımı,baseline ne aldınız?3-4-5 model barplot
+	Hyperparameter tuning yaptık mı?
+	Neydi nasıl oldu?
+
+	Encoding,Boş değerler,Preprocessing,Feature Engineering
