@@ -18,3 +18,17 @@
 	Neydi nasıl oldu?
 
 	Encoding,Boş değerler,Preprocessing,Feature Engineering
+
+
+	Amacı :
+	Veri setinde müşteri kaybını (churn) tahmin etmek.
+	Satır : 10000
+	Satır : 14
+	Target : Churn ( 0 - kalır , 1 - ayrılır)
+	Dağılım : 73% - 27%
+	Hyperparameter Tuning : Evet
+	Modelleme Sonuçları : 85% doğrulukla XGBoost en iyi sonucu verdi.
+	Feature Engineering : Card Type ordinal olarak encode edildi.
+	Preprocessing : Gender sütunu dummyleştirildi, eksik değerler dolduruldu.
+	
+	
